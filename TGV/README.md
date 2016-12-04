@@ -1,5 +1,14 @@
 ## Endpoint:
+Movie info:
 - http://<i></i>tgv.api.lb.appxtream.com/
+
+Ticketing:
+- http://<i></i>tgv.vista.appxtream.com/
+
+
+
+Params:
+- \_dc : Epoch
 
 ### Example request: 
 ```
