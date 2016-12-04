@@ -1,0 +1,22 @@
+GET http://tgv.api.lb.appxtream.com/jsonFeed.action?_dc=1480871388982&service=tgvMobileService&action=getCinemaDetail2&mimeType=application%2Fjson&p1=AU2&page=1&start=0&limit=25 HTTP/1.1
+Host: tgv.api.lb.appxtream.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Nexus 6P Build/NBD91P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36
+X-Requested-With: XMLHttpRequest
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+
+
+HTTP/1.1 200 OK
+Server: nginx/1.10.1
+Date: Sun, 04 Dec 2016 17:09:48 GMT
+Content-Type: application/json;charset=UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: X-Requested-With
+Via: HTTP/1.1 sophos.http.proxy:3128
+Connection: close
+Content-Length: 700
+
+{"cinema":{"address":"6, Jalan Keramat Hujung, Au 2, 54200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur","capacity":1266,"cinemaId":"AU2","cinemaName":"AU2","clazz":"MoCinema","hallTypes":[{"clazz":"MoHallType","desc":"Family Friendly","imageUrl":"hallType/8_HALL_TYPE_1461568836496.jpg","title":"Family Friendly"},{"clazz":"MoHallType","desc":"Standard","imageUrl":"hallType/1_HALL_TYPE_1403171931089.jpg","title":"Standard"}],"imageCinemaUrl":"AU2/AU2_CINEMA_IMG1_1437006508847.jpg","imageLocationUrl":"AU2/AU2_CINEMA_IMG2_1437006508847.jpg","latitude":"3.1783545","longitude":"101.7501843","noOfHall":6,"sequence":1},"clazz":"MoCinemaDetail","description":"Successfully get data","status":"OK"}
